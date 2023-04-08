@@ -1,6 +1,16 @@
 # AzureNSGFlowLogReader
 Takes a base flow log from azure flow logs and creates baseic pretty print table for it
 
+# Basic Run Parameteres
+```
+python3 flow_logParse.py <your_nsg_json_file> <<
+```
+
+If you forget to put a file in the command line you will get an error as follows
+```
+Please input a file to parse, none was presented at time of call!
+```
+
 
 Creates tables as follows
 
